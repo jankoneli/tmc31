@@ -3,7 +3,7 @@
     let welcome = "Welcome to.TMC #31".split(".");
     let description = {
         "en":"Official hub for Tirtamarta Cinere Batch 31. Made by the students, for the students. Completely free and open-source.",
-        "id":"Website untuk Angkatan ke-31<br/> Tirtamarta Cinere. Dibuat oleh siswa, untuk siswa. Gratis selamanya."
+        "id":"Website untuk Angkatan ke-31 Tirtamarta Cinere. Dibuat oleh siswa, untuk siswa. Gratis selamanya."
     }
     let browse = {
         "en": "Browse TMC31 Archive",
@@ -31,7 +31,7 @@
 <main class="lg:p-12 py-24 bg-blue-900">
     <div class="lg:flex-row flex-col py-12 lg:py-36 flex justify-between">
         <div class="flex md:justify-start justify-center">
-            <img src="tmclogo.png" alt="" srcset="" class="lg:w-160 w-100">
+            <img src="tmclogo.png" alt="" srcset="" class="lg:min-w-160 w-100">
         </div>
         <div class="lg:p-24 p-6 text-zinc-100 gap-4 flex flex-col">
             <h1 class="text-6xl lg:text-right">{welcome[0]} <span class="font-bold underline">{welcome[1]}</span></h1>
