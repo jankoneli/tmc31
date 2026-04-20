@@ -29,8 +29,10 @@
 </style>
 <Topbar click={toggle}/>
 <main class="lg:p-12 py-24 bg-blue-900">
-    <div class="lg:flex-row flex-col py-12 lg:py-24 flex justify-between">
-        <img src="tmclogo.png" alt="" srcset="" class="lg:w-160 w-100">
+    <div class="lg:flex-row flex-col py-12 lg:py-36 flex justify-between">
+        <div class="flex md:justify-start justify-center">
+            <img src="tmclogo.png" alt="" srcset="" class="lg:w-160 w-100">
+        </div>
         <div class="lg:p-24 p-6 text-zinc-100 gap-4 flex flex-col">
             <h1 class="text-6xl lg:text-right">{welcome[0]} <span class="font-bold underline">{welcome[1]}</span></h1>
             <p class="lg:text-2xl text-xl text-zinc-300 lg:text-right">
